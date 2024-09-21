@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+    <style>
+        Table{
+            border-collapse: collapse;
+            height: 400px;
+            width: 600px;
+            text-align: center;
+        }
+        th{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table border="6">
+        <colgroup>
+            <col span="1" >
+            <col span="2" style="background-color: rgb(180, 127, 255);">
+            <!-- <col span="3" style="background-color: rgb(146, 255, 127);"> -->
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="3">day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 am</td>
+                <td rowspan="2">5:00 pm</td>
+                <td>web Dev</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 am</td>
+                <td>11:00 am</td>
+                <td>C++</td>
+            </tr>
+            <tr>
+                <td>11:00 am</td>
+                <td>2:00 pm</td>
+                <td>DSA</td>
+            </tr>
+            <tr>
+                <td>2:00 pm</td>
+                <td>5:00 pm</td>
+                <td>DBMS</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 am</td>
+                <td>12:00 pm</td>
+                <td>Skills development</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
