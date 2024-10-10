@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: brown;
+            --custom-width: 330px;
+        }
+        .container{
+            background: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background: aquamarine;
+            width: var(--custom-width);
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            /* ----offset-x | offset-y | color */
+            box-shadow: 10px 15px var(--primary-color);
+
+            /* ---offset-x | offset-y | blur-radius | color */
+            /* box-shadow: 10px 15px 10px black; */
+
+            /* ---offset-x | offset-y | blur-radius | spread-radius | color */
+            /* box-shadow: 10px 15px 10px 30px black; */
+
+            /* ---inset | offset-x | offset-y | color */
+            /* box-shadow: inset 10px 15px black; */
+
+            /* ---Any number of shadows, separated by commas */
+            /* box-shadow: 10px 15px red, 15px 8px black; */
+        }
+        img{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            align-items: center;
+        }
+        #head2{
+            /* text-shadow: 2px 3px 2px white; */
+            /* text-shadow: yellow 2px 3px 2px; */
+            /* text-shadow: yellow 2px 3px; */
+            text-shadow: 2px 3px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="Akash1.jpg" alt="Akash" class="center">
+            <h2 id='head2'> Welcome to "Learner's Library</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Amet rem quasi, ex labore voluptatum quaerat? Quo expedita incidunt in velit architecto alias veniam similique corporis?
+            </p>
+
+        </div>
+    </div>
+</body>
+</html>
