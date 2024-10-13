@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            background: beige;
+            border: 2px solid black;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin: auto; */
+            
+            transition: all 2s linear 1s;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box:hover{
+            /* transform: rotate(360deg); */
+            /* transform: scale(2); */
+            /* transform: scale(0.5);
+            transform: scale(-45deg); */
+            /* transform: skew(-45deg); */
+            transform: translate(400px, 400px);
+        }
+
+        p{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p>
+                This is web dev
+            </p>
+        </div>
+    </div>
+</body>
+</html>
