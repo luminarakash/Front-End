@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            min-height: 670px;
+            background: rgb(34,193,195);
+            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(167,55,242,1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            height: 550px;
+            width: 320px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px black;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .card img{
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            height: 150px;
+            width: 320px;
+            transition: all 0.6s linear 0s;
+            position: relative;
+        }
+        .textBox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+            width: 75%;
+        }
+        #amountBox{
+            width: 80%;
+            height: 10%;
+            background-color: rgb(122, 247, 206);
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #leftBox{
+            /* width: fit-content; */
+            display: flex;
+            gap: 15px;
+            height: 100%;
+            align-items: center;
+        }
+        .imgBox img{
+            height: 2.5rem;
+            width: 2.5rem;
+            border-radius: 50%;
+            box-shadow: 0px 0px 15px black;
+        }
+        .rightBox{
+
+        }
+        #Button{
+            width: 80%;
+            height: 9%;
+            background-color: rgb(31, 31, 87);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px black;
+        }
+        .CancelBox a{
+            text-decoration: none;
+            color: rgb(40, 34, 34);
+            font-weight: bold;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="tech.jpg" alt="">
+
+            <div class="textBox">
+            <h2>Order Summary</h2>
+            <p>Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Reiciendis, adipisicing elit. Reiciendis,</p>
+            </div>
+            
+            <div id="amountBox">
+
+                <div id="leftBox">
+                    <div class="imgBox">
+                        <img src="music logo.png" alt="">
+                    </div>
+
+                    <div class="textAmount">
+                        <p>Amount</p>
+                        <p>$99.9/year</p>
+                    </div>
+                </div>
+
+                <div class="rightBox">
+                    <a href="#">Change</a>
+                </div>
+
+            </div>
+            <button id="Button">
+                Proceed to Payment
+            </button>
+            <div class="CancelBox">
+                <a href="#">Cancel Order</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

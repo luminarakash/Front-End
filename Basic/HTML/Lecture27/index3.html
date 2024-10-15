@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            min-height: 670px;
+            background: rgb(34,193,195);
+            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(167,55,242,1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            height:400px;
+            width: 800px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 15px black;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .leftBox{
+            background-color: rgb(53, 15, 65);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+        }
+        .rightBox img{
+            height: 400px;
+            width: 400px;
+        }
+        .leftBox h2{
+            font-weight: bold;
+            font-size: 2.3rem;
+            text-align: center;
+        }
+        .leftBox p2{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        #stepBox{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
+        #stepBox p1{
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        #stepBox p3{
+            font-weight: 0.2rem;
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="leftBox">
+                <h2>Get insits that help your business grow</h2>
+
+                <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum minima officiis itaque illo quisquam porro!</p2>
+                
+                  <div id="stepBox">
+                    <div class="first">
+                        <p1>10K+</p1>
+                        <p3>Comments</p3>
+                    </div>
+                    <div class="second">
+                        <p1>214</p1>
+                        <p3>Paid user</p3>
+                    </div>
+                    <div class="third">
+                        <p1>12M+</p1>
+                        <p3>View<p3>
+                    </div>
+                  </div>
+                
+            </div>
+    
+            <div class="rightBox">
+                <img src="razorpay.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
