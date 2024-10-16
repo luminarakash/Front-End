@@ -1,0 +1,29 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.box{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 144, 246);
+
+    /* transition: 0.5s; */
+    /* transition: all; */
+    /* transition-delay:  1s; */
+    /* transition: background-color 1s ease 0.3s; */
+    /* transition: transform 1s ease 0.3s; */
+
+    /* transition: transform 3s ease-in; */
+    transition: transform 3s cubic-bezier(1, -0.28, 0, 1.29) 0s;
+}
+.box:hover{
+    background-color: chocolate;
+    /* transform: rotate(45deg); */
+    transform: translateX(850px) rotate(1440deg) scale(2);
+}
