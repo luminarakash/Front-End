@@ -1,0 +1,16 @@
+.box{
+    border: 2px solid black;
+    max-height: 150px;
+    max-width: 250px;
+    overflow: scroll;
+}
+.box1{
+    border: 2px solid black;
+    min-height: 100px;
+    min-width: 10px;
+}
+#akku{
+    border: 2px solid black;
+    height: 50px;
+    overflow: auto;
+}
