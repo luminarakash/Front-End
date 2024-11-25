@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: gold; 
+}
+
+h1{
+    font-size: 40px;
+    background-color: navy;
+}
+
+.container {
+    background-color: #f2f2f2;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    height: 100vh;
+}
+
+nav {
+    background-color: blue;
+    overflow: hidden;
+}
+
+nav a:hover {
+    color: black;
+}
+
+section
+{
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+
+iframe{
+    padding: 0px 5px;
+}
+
+img{
+    padding: 0px 20px;
+}
+
+h2 {
+    padding-bottom: 40px;
+    color: black;
+    text-decoration: underline;
+    height: 50;
+    width: 50;
+}
+
+h3 {
+    color: black;
+}
+
+h4,
+h5 {
+    color: black;
+}
+
+a[href="https://www.youtube.com/channel/UC7eM8z3aAj2RAw2qhjbTaYAlank"]{color: blue; overflow: hidden; text-shadow: 3px;} a:hover{color: black;}
+a[href="https://www.facebook.com/er.akash02"]{color: blue; text-shadow: 3px;} a:hover{color: black;}
+a[href="https://www.instagram.com/er.akash02"]{color: blue; text-shadow: 3px;} a:hover{color: black;}
+
+.footer {
+    padding: 10px 50px;
+}
+footer a:hover{
+    color: black;
+}
+
+.flex-align-right{
+    margin-left: auto;
+}
