@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    border-color: #f2f2f2;
+    border: 6px;
+    border-radius: 4px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 30px;
+    font-size: 18px;
+    padding: 2px;
+}
+.container{
+    background-color:#f2f2f2;
+    padding: 2px 20px 15px 20px;
+    border: 6px;
+    border-color: blue;
+    border-radius: 5px;
+}
+
+section{
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    padding: 6px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+nav{
+    padding-top: 4px;
+    height: 35px;
+    background-color: blue;
+    overflow: hidden;
+}
+nav a:hover{
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    height: 100px;
+    padding-top: 17px;
+    color:white ;
+    background-color: rgb(3, 3, 141);
+}
+
+.profile_img{
+    border-radius: 50%;
+}
+
+h2{
+color: black;
+text-decoration: underline;
+height: 50;
+width: 50;
+}
+
+h3{color: black;}
+
+h4,h5 {color: black;
+background-color: aquamarine;}
+
+a[href="https://www.youtube.com/channel/UC7eM8z3aAj2RAw2qhjbTaYAlank"]{color: blue; overflow: hidden; text-shadow: 3px;} a:hover{color: black;}
+a[href="https://www.facebook.com/er.akash02"]{color: blue; text-shadow: 3px;} a:hover{color: black;}
+a[href="https://www.instagram.com/er.akash02"]{color: blue; text-shadow: 3px;} a:hover{color: black;}
+
+.footer{
+    font-size: 14px;
+    padding: 60px 0px 20px;
+}
+.footer a:hover{color:black};
