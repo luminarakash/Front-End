@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+    <form action="">
+        <h1> Payment Form </h1>
+        <p>required fields are followed by * </p>
+        <h2> Contact Information: </h2>
+        <p> Name:*<input type="text" name="name" placeholder="" required></p>
+        <fieldset>
+            <legend> Gender* </legend>
+            <p>
+                male <input type="radio" name="gender" id="male" required>
+                female<input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset>
+        <p> Address: <textarea aria-placeholder="Enter your Address" name="Address" id="Address" cols="100" row="12" placeholder=""></textarea></p>
+        <p> Email:* <input type="email" name="email" id="email" cols="100" row="6" required></p>
+        <p> Pincode:* <input type="number" name="pincode" id="pincode" placeholder="" required></p>
+        <h2> Payment Inormation: </h2>
+        <p> Card Type:*
+            <select name="card_type" id="card_type" required>
+                <option value="">--select a card type--</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="mastercard">mastercard</option>
+                <option value="credit card">credit card</option>
+                <option value="debit card">debit card</option>
+            </select>
+        </p>
+        <p> Card Number:* <input type="number" name="card_number" id="card_number" required>
+        </p>
+        <p> Expiration Date:* <input type="date" name="exp_date" id="exp_date" required>
+        </p>
+        <p> CVV:* <input type="password" name="cvv" id="cvv" required></p>
+        <p2>Are you sure<input type="checkbox"></p2>
+        <p> <input type="submit" value="Pay now"> </p>
+    </form>
+    </div>
+</body>
+
+</html>
